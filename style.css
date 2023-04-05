@@ -1,0 +1,37 @@
+body{    
+    border: 10px solid rgb(130, 130, 130);
+    background-color: black;
+    font-size: 3000px;
+}
+
+
+
+div {
+    text-align: center;
+    background-color: rgba(20, 19, 19, 0.686);
+    height: 130px;
+    padding: 3px;
+    
+  }
+
+  .titulo {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(84, 254, 5);
+    font-size: 80px;
+  }
+  .botones {
+    text-align: center;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 1100px;
+    margin: 0 auto;
+    border: 3px solid rgb(65, 65, 66);
+  }
+  .resultado{
+    margin: 108px;
+    font-size: 40px;
+    color: rgb(0, 255, 38);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 30px;
+}

@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
+  
     <!--generar un formulario para ingresar 2 numeros-->
     <header>
-
+      <div class="titulo">
+        Calculadora 2.0
+       </div>
     </header>
     <nav>
 
     </nav>
-    <main>
+    
       <form>
         <div class="container">
         <div class="form-group">
-        <label for="num1">num 1</label>
-        <input class="form-control" id="num1" name="num1" type="number" required>
-        <label for="num2">num 2</label>
-        <input class="form-control" id="num2" name="num2" type="number" required>
+        <label for="numero_1">Número 1</label>
+        <input class="form-control" id="numero_1" name="numero_1" type="number" required/>
+        <label for="numero_2">Número 2</label>
+        <input class="form-control" id="numero_2" name="numero_2" type="number" required/>
         </div>
-        <button class="btn btn-dark mt-3" id="submit" >Button</button>
-        </div>
-      </form>
-      <div id="resultado">
 
+        <div class="botones">
+          <div class="center">
+        <button id="submit-S" class="btn btn-dark mt-3 btn-lg" type="submit" >Sumar</button>
+        <button id="submit-R" class="btn btn-secondary mt-3 btn-lg" type="submit" >Restar</button>
+        <button id="submit-M" class="btn btn-dark mt-3 btn-lg" type="submit" >Multiplicar</button>
+        <button id="submit-D" class="btn btn-secondary mt-3 btn-lg" type="submit" >Dividir</button>
+        </div></div>
       </div>
-    </main>
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <br>
+      </form>
+      <div id="resultado" class="resultado">
+      </div>
+    
     <script src="programa.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <footer></footer>
   </body>
 </html>
